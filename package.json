@@ -1,0 +1,35 @@
+{
+  "name": "solar-starship",
+  "version": "1.0.0",
+  "description": "A space flight simulator inspired by Elite Dangerous, built with Babylon.js and React",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext js,jsx,ts,tsx",
+    "lint:fix": "eslint . --ext js,jsx,ts,tsx --fix"
+  },
+  "keywords": [
+    "space",
+    "simulator",
+    "babylon.js",
+    "react",
+    "3d",
+    "game",
+    "elite-dangerous"
+  ],
+  "author": "Space Explorer",
+  "license": "MIT",
+  "dependencies": {
+    "babylonjs": "^8.23.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.4.0"
+  }
+}
