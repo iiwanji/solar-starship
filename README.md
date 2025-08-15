@@ -16,14 +16,15 @@ A 3D space flight simulator inspired by Elite Dangerous, built with Babylon.js a
 
 - **W/S**: Move forward/backward
 - **A/D**: Move left/right
-- **Q/E**: Move up/down
+- **Q/E**: Move down/up
 - **Mouse**: Look around (camera rotation)
 - **Spacebar**: Fire weapons
+- **R**: Reset camera position
 
 ## Technology Stack
 
 - **Frontend**: React 18
-- **3D Engine**: Babylon.js 6.0
+- **3D Engine**: Babylon.js 8.23.1
 - **Build Tool**: Vite
 - **Styling**: CSS3 with custom animations
 - **Physics**: Built-in Babylon.js physics engine
@@ -39,7 +40,7 @@ A 3D space flight simulator inspired by Elite Dangerous, built with Babylon.js a
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/solar-starship.git
+git clone https://github.com/iiwanji/solar-starship.git
 cd solar-starship
 ```
 
